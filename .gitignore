@@ -1,0 +1,12 @@
+# Datasets. Las carpetas se conservan con .gitkeep.
+raw/**
+!raw/**/
+!raw/**/.gitkeep
+
+# Informes: solo el ejemplo más reciente.
+catalog/audits/*
+!catalog/audits/XAUUSD_1_Min_2024.01.01_2025.01.01_20261112_061830_541008.md
+
+# Caché de Python
+__pycache__/
+*.py[cod]
